@@ -64,5 +64,122 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-AI Router is a company surfaced via the API Evangelist harvest backlog (source: g2-catalog) and added to the network as a stub for full-pipeline profiling.
-- https://airouter.io/
+AI Router provides intelligent LLM routing to control and reduce large language model costs while preserving quality. The platform dynamically selects optimal models per request, balancing latency, cost, and performance. It offers a playground, API, and detailed analytics for enterprises to manage AI spend at scale, with features like custom optimization, model selection, and cost monitoring.
+
+**Areas:** LLM Cost Optimization · Model Routing · Enterprise AI · Privacy
+
+## AI Router on APIs.io
+
+Everything profiled for AI Router is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/airouter/](https://apis.io/providers/airouter/)** — or go straight to one of the APIs or properties below.
+
+### APIs (3)
+
+- [AI Router API](https://apis.io/apis/airouter/ai-router-api/) — AI Router provides an API for intelligent LLM routing, cost management, and analytics.
+- [AI Router AI Router API](https://apis.io/apis/airouter/airouter-ai-router-api-api/) — The AI Router API API from AI Router — 1 operation(s) for ai router api.
+- [AI Router Chat Completions API](https://apis.io/apis/airouter/airouter-chat-completions-api/) — The Chat Completions API from AI Router — 1 operation(s) for chat completions.
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### JSON Schema (2)
+
+The data models the API reads and writes.
+
+- [PostV1ChatCompletionsRequest](https://apis.io/schemas/airouter/airouter-post-v1-chat-completions-request/)
+- [PostV1V1IdRequest](https://apis.io/schemas/airouter/airouter-post-v1-v1-id-request/)
+
+#### JSON-LD (1)
+
+Linked-data contexts for the provider's vocabulary.
+
+- [Airouter Context](https://apis.io/jsonld/airouter/airouter-context/)
+
+#### Governance rules (1)
+
+Spectral rulesets for the provider's contracts.
+
+- [AI Router API Rules](https://apis.io/rules/airouter/airouter-rules/)
+
+#### Security (2)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Airouter Authentication](https://apis.io/security/airouter/airouter-authentication/)
+- [Airouter Domain Security](https://apis.io/security/airouter/airouter-domain-security/)
+
+#### Plans and pricing (1)
+
+Published plans, tiers and prices.
+
+- [Airouter Plans Pricing](https://apis.io/plans/airouter/airouter-plans-pricing/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://airouter.io/)
+- [Documentation](https://airouter.io/docs)
+- [Getting started](https://airouter.io/docs/quickstart/getting-started)
+- [API reference](https://airouter.io/docs/api)
+- [Pricing](https://airouter.io/pricing)
+- [Sign up](https://airouter.io/auth/sign-in)
+- [Support](https://airouter.io/contact)
+- [Terms of service](https://airouter.io/terms-of-service)
+- [Privacy policy](https://airouter.io/privacy-policy)
+- [GitHub](https://github.com/airouter)
+
+## API Evangelist rating
+
+**Kin Score 41.3** — developing · rubric 0.25.0 · scored 2026-10-23
+
+| Facet | Score |
+|---|---|
+| Discoverability | 55.4 |
+| Contract quality | 21.4 |
+| Contract governance | 19.7 |
+| Operational transparency | 5.3 |
+| Developer ergonomics | 57.1 |
+| Access clarity | 76.3 |
+
+**Agent readiness 33.1** — agent-ready
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | yes |
+| Agentic Access | — |
+| Reversibility Documented | — |
+| MCP Server | — |
+| Auth Clarity | served (partial credit) |
+| Idempotency | — |
+| Error Semantics | — |
+| OpenAPI Examples | — |
+| Rate Limit Signal | — |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | served (partial credit) |
+| Protected Resource Metadata | verified |
+| Dynamic Client Registration | yes |
+| Agentic Commerce | — |
+| Pagination Ratio | na |
+| Operation Distinctiveness | distinct |
+
+**Regulatory alignment 24.5** — Horizontal (data, software, accessibility, platform)
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/airouter/](https://apis.io/providers/airouter/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for AI Router: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/airouter/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
